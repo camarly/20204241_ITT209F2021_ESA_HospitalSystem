@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace _20204241_ITT209F2021_ESA {
     public partial class MainMenuForm : Form {
-        public MainMenuForm() {
+        public MainMenuForm(string name) {
             InitializeComponent();
             dateLabel.Text = DateTime.Now.ToString();
+            userLoggedInLabel.Text = name;
         }
 
         private void label1_Click(object sender, EventArgs e) {
@@ -25,6 +26,14 @@ namespace _20204241_ITT209F2021_ESA {
 
         private void label18_Click(object sender, EventArgs e) {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e) {
+            new ManagePatientForm().Show();
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e) {
+            new ManagePatientForm().ShowDialog();
         }
     }
 }

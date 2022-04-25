@@ -48,7 +48,7 @@ namespace _20204241_ITT209F2021_ESA {
             if (table.Rows.Count > 0) {
                 MessageBox.Show("User Successfully Logged in.", "SUCCESS");
                 this.Hide();
-                new MainMenuForm().Show();
+                new MainMenuForm(usernameTxtBox.Text).Show();
 
             } else {
                 MessageBox.Show("Login Failed.", "Error");

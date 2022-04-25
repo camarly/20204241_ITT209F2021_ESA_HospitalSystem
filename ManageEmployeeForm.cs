@@ -9,9 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _20204241_ITT209F2021_ESA {
-    public partial class ManagePatient : Form {
-        public ManagePatient() {
+    public partial class ManageEmployeeForm : Form {
+        public ManageEmployeeForm() {
             InitializeComponent();
+        }
+
+        private void DateTextBox_TextChanged(object sender, EventArgs e) {
+
         }
     }
 }
