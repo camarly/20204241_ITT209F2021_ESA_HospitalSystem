@@ -1,5 +1,5 @@
 ﻿namespace _20204241_ITT209F2021_ESA {
-    partial class AddEmployeeForm {
+    partial class ManagePatient {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -25,13 +25,13 @@
         private void InitializeComponent() {
             this.SuspendLayout();
             // 
-            // AddEmployeeForm
+            // ManagePatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1138, 745);
-            this.Name = "AddEmployeeForm";
-            this.Text = "AddEmployeeForm";
+            this.ClientSize = new System.Drawing.Size(1602, 951);
+            this.Name = "ManagePatient";
+            this.Text = "ManagePatient";
             this.ResumeLayout(false);
 
         }

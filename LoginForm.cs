@@ -98,7 +98,9 @@ namespace _20204241_ITT209F2021_ESA {
         }
 
         private void forgetpwdButton_Click(object sender, EventArgs e) {
-            new ResetPasswordForm().Show();
+            ResetPasswordForm myResetForm = new ResetPasswordForm();
+            myResetForm.ShowDialog();
+            
         }
     }
 }

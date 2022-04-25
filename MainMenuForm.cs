@@ -12,6 +12,7 @@ namespace _20204241_ITT209F2021_ESA {
     public partial class MainMenuForm : Form {
         public MainMenuForm() {
             InitializeComponent();
+            dateLabel.Text = DateTime.Now.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e) {
@@ -20,6 +21,10 @@ namespace _20204241_ITT209F2021_ESA {
 
         private void button1_Click(object sender, EventArgs e) {
             this.Close();
+        }
+
+        private void label18_Click(object sender, EventArgs e) {
+
         }
     }
 }
