@@ -39,12 +39,14 @@ namespace _20204241_ITT209F2021_ESA {
             mySqlDataAdapter.Fill(table);
 
 
+            string name = usernameTxtBox.Text;
             //check if user exists/
 
             if (table.Rows.Count > 0) {
                 MessageBox.Show("User Successfully Logged in.", "SUCCESS");
                 this.Hide();
-                new MainMenuForm().Show();
+                MainMenuForm mainmenu = new MainMenuForm(name);
+                mainmenu.Show();
 
             }
             else {

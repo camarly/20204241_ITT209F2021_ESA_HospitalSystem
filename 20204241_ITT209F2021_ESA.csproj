@@ -115,17 +115,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ManageDoctorNurse.cs">
+    <Compile Include="ManageDoctorNurseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageDoctorNurse.Designer.cs">
-      <DependentUpon>ManageDoctorNurse.cs</DependentUpon>
+    <Compile Include="ManageDoctorNurseForm.Designer.cs">
+      <DependentUpon>ManageDoctorNurseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageEmployee.cs">
+    <Compile Include="ManageEmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageEmployee.Designer.cs">
-      <DependentUpon>ManageEmployee.cs</DependentUpon>
+    <Compile Include="ManageEmployeeForm.Designer.cs">
+      <DependentUpon>ManageEmployeeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Bill.cs" />
     <Compile Include="GlobalCodes.cs" />
@@ -136,11 +136,11 @@
     <Compile Include="MainMenuForm.Designer.cs">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManagePatient.cs">
+    <Compile Include="ManagePatientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManagePatient.Designer.cs">
-      <DependentUpon>ManagePatient.cs</DependentUpon>
+    <Compile Include="ManagePatientForm.Designer.cs">
+      <DependentUpon>ManagePatientForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MedicalInformation.cs" />
     <Compile Include="Medicine.cs" />
@@ -165,8 +165,8 @@
       <DependentUpon>ResetPasswordForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Room.cs" />
-    <EmbeddedResource Include="ManageEmployee.resx">
-      <DependentUpon>ManageEmployee.cs</DependentUpon>
+    <EmbeddedResource Include="ManageEmployeeForm.resx">
+      <DependentUpon>ManageEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -174,8 +174,8 @@
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagePatient.resx">
-      <DependentUpon>ManagePatient.cs</DependentUpon>
+    <EmbeddedResource Include="ManagePatientForm.resx">
+      <DependentUpon>ManagePatientForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

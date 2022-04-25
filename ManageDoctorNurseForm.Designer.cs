@@ -1,5 +1,5 @@
 ﻿namespace _20204241_ITT209F2021_ESA {
-    partial class ManageDoctorNurse {
+    partial class ManageDoctorNurseForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>

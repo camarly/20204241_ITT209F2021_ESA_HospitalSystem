@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _20204241_ITT209F2021_ESA {
-    public partial class ManageEmployee : Form {
-        public ManageEmployee() {
+    public partial class ManageDoctorNurseForm : Form {
+        public ManageDoctorNurseForm() {
             InitializeComponent();
         }
     }

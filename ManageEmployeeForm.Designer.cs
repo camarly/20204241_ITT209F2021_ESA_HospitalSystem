@@ -1,5 +1,5 @@
 ﻿namespace _20204241_ITT209F2021_ESA {
-    partial class ManageEmployee {
+    partial class ManageEmployeeForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>
