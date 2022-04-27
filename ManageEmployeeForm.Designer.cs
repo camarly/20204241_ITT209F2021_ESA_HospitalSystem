@@ -69,6 +69,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.DateTextBox = new System.Windows.Forms.TextBox();
             this.userLoggedInTextBox = new System.Windows.Forms.TextBox();
+            this.EmployeeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -476,6 +477,8 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.EmployeeID});
             this.dataGridView1.Location = new System.Drawing.Point(0, 21);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -497,6 +500,13 @@
             this.userLoggedInTextBox.Name = "userLoggedInTextBox";
             this.userLoggedInTextBox.Size = new System.Drawing.Size(160, 22);
             this.userLoggedInTextBox.TabIndex = 3;
+            // 
+            // EmployeeID
+            // 
+            this.EmployeeID.HeaderText = "Employee ID";
+            this.EmployeeID.MinimumWidth = 6;
+            this.EmployeeID.Name = "EmployeeID";
+            this.EmployeeID.Width = 125;
             // 
             // ManageEmployeeForm
             // 
@@ -567,5 +577,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox DateTextBox;
         private System.Windows.Forms.TextBox userLoggedInTextBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EmployeeID;
     }
 }

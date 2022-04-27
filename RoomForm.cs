@@ -9,13 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _20204241_ITT209F2021_ESA {
-    public partial class ManageDoctorNurseForm : Form {
-        public ManageDoctorNurseForm() {
+    public partial class RoomForm : Form {
+        public RoomForm() {
             InitializeComponent();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e) {
-
         }
     }
 }

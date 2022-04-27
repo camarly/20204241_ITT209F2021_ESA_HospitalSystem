@@ -35,5 +35,49 @@ namespace _20204241_ITT209F2021_ESA {
         private void pictureBox12_Click(object sender, EventArgs e) {
             new ManagePatientForm().ShowDialog();
         }
+
+        private void label26_Click(object sender, EventArgs e) {
+            new ManageDoctorNurseForm().ShowDialog();
+        }
+
+        private void label12_Click(object sender, EventArgs e) {
+            new ManagePatientForm().ShowDialog();
+        }
+
+        private void invoicelabel_Click(object sender, EventArgs e) {
+            new BillForm().ShowDialog();
+        }
+
+        private void recordslabel_Click(object sender, EventArgs e) {
+            //new MedicalInformationForm().Showdialog();
+        }
+
+        private void label20_Click(object sender, EventArgs e) {
+            new RoomForm().ShowDialog();
+        }
+
+        private void label4_Click(object sender, EventArgs e) {
+            new Inpatient1Form().ShowDialog();
+        }
+
+        private void label14_Click(object sender, EventArgs e) {
+            new OutpatientForm().ShowDialog();  
+        }
+
+        private void ManageNurseLabel_Click(object sender, EventArgs e) {
+            new ManageDoctorNurseForm().ShowDialog();
+        }
+
+        private void ManageEmployeeLabel_Click(object sender, EventArgs e) {
+            new ManageEmployeeForm().ShowDialog();  
+        }
+
+        private void ManageMedicineLabel_Click(object sender, EventArgs e) {
+            
+        }
+
+        private void ManagePrescriptionLabel_Click(object sender, EventArgs e) {
+            new PrescriptionForm().ShowDialog();
+        }
     }
 }

@@ -121,6 +121,12 @@
     <Compile Include="BillForm.Designer.cs">
       <DependentUpon>BillForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OutpatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutpatientForm.Designer.cs">
+      <DependentUpon>OutpatientForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageDoctorNurseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,12 @@
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Outpatient.cs" />
+    <Compile Include="Inpatient1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inpatient1Form.Designer.cs">
+      <DependentUpon>Inpatient1Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Patient.cs" />
     <Compile Include="Prescription.cs" />
     <Compile Include="PrescriptionForm.cs">
@@ -177,8 +189,17 @@
       <DependentUpon>ResetPasswordForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Room.cs" />
+    <Compile Include="RoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomForm.Designer.cs">
+      <DependentUpon>RoomForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BillForm.resx">
       <DependentUpon>BillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutpatientForm.resx">
+      <DependentUpon>OutpatientForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageDoctorNurseForm.resx">
       <DependentUpon>ManageDoctorNurseForm.cs</DependentUpon>
@@ -195,6 +216,9 @@
     <EmbeddedResource Include="ManagePatientForm.resx">
       <DependentUpon>ManagePatientForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inpatient1Form.resx">
+      <DependentUpon>Inpatient1Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrescriptionForm.resx">
       <DependentUpon>PrescriptionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,6 +234,9 @@
     </Compile>
     <EmbeddedResource Include="ResetPasswordForm.resx">
       <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomForm.resx">
+      <DependentUpon>RoomForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
